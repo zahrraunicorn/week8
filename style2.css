@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(231, 148, 175);
+    padding: 0%;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+header, footer{
+    background-color: rgb(189, 189, 223);
+    height: 10vh;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#main{
+    display: flex;
+}
+
+#main article{
+    background-color: rgb(201, 93, 129);
+    height: 60vh;
+    flex: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px  ;
+}
+#main aside{
+    flex: 1;
+    background-color: rgb(157, 157, 220);
+    height: 60vh;
+    flex: 0 0 20vw;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+h2{
+    text-align: center;
+    margin-top: 55px;
+    
+}
+#image{
+    
+    height: 40vh;
+    flex: 1;
+    margin: 10px;
+}
